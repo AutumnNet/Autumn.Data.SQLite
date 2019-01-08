@@ -1,9 +1,9 @@
-﻿using System.Data;
+using System.Data;
 using Autumn.Net.Annotation;
 using Autumn.Net.Data;
-using System.Data.SQLite;
+using SQL = Mono.Data.Sqlite;  
 
-namespace Autumn.Data.SQLite
+namespace Autumn.Data.SQLite.Mono
 {
     [Service]
     public class SQLiteService : IDataConnectionPoolService 
@@ -13,7 +13,7 @@ namespace Autumn.Data.SQLite
 
         public IDbConnection Get()
         {
-            IDbConnection dbConnection = new SQLiteConnection(connectionString);
+            IDbConnection dbConnection = new SQL.SqliteConnection(connectionString);
             dbConnection.Open();
             return dbConnection;
         }
@@ -25,7 +25,7 @@ namespace Autumn.Data.SQLite
 
         public IDbDataParameter CreateParameter(string paramName, DbType dbType, object value)
         {
-            return new SQLiteParameter(paramName, dbType) {Value = value};		    
+            return new SQL.SqliteParameter(paramName, dbType) {Value = value};		    
         }
     }
 }

@@ -2,15 +2,31 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autumn.Data.SQLite", "Autumn.Data.SQLite\Autumn.Data.SQLite.csproj", "{BE454BD9-7B7B-4774-8D64-3039BEB75752}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autumn.Data.SQLIte.Mono", "Autumn.Data.SQLIte.Mono\Autumn.Data.SQLIte.Mono.csproj", "{93EC4D9D-186B-4195-BC9D-9E7CD68D9F75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		DebugWin|Any CPU = DebugWin|Any CPU
+		ReleaseWin|Any CPU = ReleaseWin|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BE454BD9-7B7B-4774-8D64-3039BEB75752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BE454BD9-7B7B-4774-8D64-3039BEB75752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE454BD9-7B7B-4774-8D64-3039BEB75752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE454BD9-7B7B-4774-8D64-3039BEB75752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE454BD9-7B7B-4774-8D64-3039BEB75752}.DebugWin|Any CPU.ActiveCfg = DebugWin|Any CPU
+		{BE454BD9-7B7B-4774-8D64-3039BEB75752}.DebugWin|Any CPU.Build.0 = DebugWin|Any CPU
+		{BE454BD9-7B7B-4774-8D64-3039BEB75752}.ReleaseWin|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE454BD9-7B7B-4774-8D64-3039BEB75752}.ReleaseWin|Any CPU.Build.0 = Debug|Any CPU
+		{93EC4D9D-186B-4195-BC9D-9E7CD68D9F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EC4D9D-186B-4195-BC9D-9E7CD68D9F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EC4D9D-186B-4195-BC9D-9E7CD68D9F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EC4D9D-186B-4195-BC9D-9E7CD68D9F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93EC4D9D-186B-4195-BC9D-9E7CD68D9F75}.DebugWin|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EC4D9D-186B-4195-BC9D-9E7CD68D9F75}.DebugWin|Any CPU.Build.0 = Debug|Any CPU
+		{93EC4D9D-186B-4195-BC9D-9E7CD68D9F75}.ReleaseWin|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EC4D9D-186B-4195-BC9D-9E7CD68D9F75}.ReleaseWin|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Autumn.Net.Data.SQLite.Mono</id>
+    <version>0.1.6</version>
+    <title>Autumn.Net.Data.SQLite.Mono</title>
+    <authors>Dmitry Vysochin</authors>
+    <owners>Dmitry Vysochin</owners>
+    <license type="file">license.txt</license>
+    <projectUrl>https://github.com/AutumnNet/Autumn.Net.Data.SQLite</projectUrl>
+    <iconUrl>https://avatars0.githubusercontent.com/u/46298405?s=128&amp;v=4</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Data template for Autumn Framework</description>
+    <releaseNotes>First package package.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>DI DATA AUTUMN.NET SQLITE MONO</tags>
+    <dependencies>
+      <dependency id="Autumn.Net" version="0.1.5" />    
+      <dependency id="Autumn.Net.Data" version="0.1.6" />
+      <dependency id="Mono.Data.Sqlite" version="1.0.61" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="licenses/license.txt" target="" />
+    <file src="bin\Debug\Autumn.Net.Data.SQLite.*" target="lib/net46" />
+  </files>
+</package>
