@@ -6,7 +6,6 @@
 .idea/
 build/
 contrib/proto
-packages.config
 BackServer2.userprefs
 /BackServer2/MainSettingsVer.cs
 /Assets/StreamingAssets
