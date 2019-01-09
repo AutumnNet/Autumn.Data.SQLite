@@ -7,8 +7,8 @@
     <ProjectGuid>{93EC4D9D-186B-4195-BC9D-9E7CD68D9F75}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Autumn.Data.SQLIte.Mono</RootNamespace>
-    <AssemblyName>Autumn.Data.SQLIte.Mono</AssemblyName>
+    <RootNamespace>Autumn.Net.Data.SQLIte.Mono</RootNamespace>
+    <AssemblyName>Autumn.Net.Data.SQLIte.Mono</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

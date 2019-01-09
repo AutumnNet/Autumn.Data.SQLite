@@ -7,8 +7,8 @@
     <ProjectGuid>{BE454BD9-7B7B-4774-8D64-3039BEB75752}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Autumn.Data.SQLite</RootNamespace>
-    <AssemblyName>Autumn.Data.SQLite</AssemblyName>
+    <RootNamespace>Autumn.Net.Data.SQLite</RootNamespace>
+    <AssemblyName>Autumn.Net.Data.SQLite</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Autumn.Net.Data.SQLite</id>
-    <version>0.1.6</version>
+    <version>0.1.7</version>
     <title>Autumn.Net.Data.SQLite</title>
     <authors>Dmitry Vysochin</authors>
     <owners>Dmitry Vysochin</owners>
